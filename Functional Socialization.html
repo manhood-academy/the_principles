@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Functional Socialization - The Principles That Govern Social Interaction</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="Clearing out the bullshit.html">Clearing Out The Bullshit</a></li><li class="chapter-item expanded affix "><li class="part-title">Part I: Identifying The Problem</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> The Neurotic Mind</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/Some Symptoms.html"><strong aria-hidden="true">1.1.</strong> Some Symptoms</a></li><li class="chapter-item expanded "><a href="part1/How To Spot A Serial Killer.html"><strong aria-hidden="true">1.2.</strong> How To Spot A Serial Killer</a></li><li class="chapter-item expanded "><a href="part1/Why are you like this.html"><strong aria-hidden="true">1.3.</strong> Why Are You Like This?</a></li></ol></li><li class="chapter-item expanded "><a href="part1/What is Feminism.html"><strong aria-hidden="true">2.</strong> What Is Feminism?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/What Does The Term Bitch Really Mean.html"><strong aria-hidden="true">2.1.</strong> What Does The Term "Bitch" Really Mean?</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Feminism Deforms Society</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/An Attitude of Entitlement.html"><strong aria-hidden="true">3.1.</strong> An Attitude Of Entitlement</a></li><li class="chapter-item expanded "><a href="part1/Women Shielded From Sexual Accountability.html"><strong aria-hidden="true">3.2.</strong> Women Shielded From Sexual Accountability</a></li><li class="chapter-item expanded "><a href="part1/An Unfair Sexual Advantage.html"><strong aria-hidden="true">3.3.</strong> An Unfair Sexual Advantage</a></li><li class="chapter-item expanded "><a href="part1/An Unfair Economic Advantage.html"><strong aria-hidden="true">3.4.</strong> An Unfair Economic Advantage</a></li><li class="chapter-item expanded "><a href="part1/Equal Rights Vs. Equal Representation of Interests.html"><strong aria-hidden="true">3.5.</strong> "Equal Rights" vs. Equal Representation of Interests</a></li><li class="chapter-item expanded "><a href="part1/How Feminism Destroys Chivalry.html"><strong aria-hidden="true">3.6.</strong> How Feminism Destroys Chivalry</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Feminism Damages Women</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/The Victim Mentality.html"><strong aria-hidden="true">4.1.</strong> The Victim Mentality</a></li><li class="chapter-item expanded "><a href="part1/Women Encouraged To Deceive.html"><strong aria-hidden="true">4.2.</strong> Women Encouraged To Deceive</a></li><li class="chapter-item expanded "><a href="part1/Females Encouraged to Neglect Their Gender Roles.html"><strong aria-hidden="true">4.3.</strong> Females Encouraged To Neglect Their Gender Roles</a></li><li class="chapter-item expanded "><a href="part1/Over-emphasizing Male Functions.html"><strong aria-hidden="true">4.4.</strong> Over-emphasizing Male Functions</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Feminism Emasculates Men</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/The Demonization of Men.html"><strong aria-hidden="true">5.1.</strong> The Demonization Of Men</a></li><li class="chapter-item expanded "><a href="part1/Demonizing Male Sexuality.html"><strong aria-hidden="true">5.2.</strong> Demonizing Male Sexuality</a></li><li class="chapter-item expanded "><a href="part1/Dating Incompetence.html"><strong aria-hidden="true">5.3.</strong> Dating Incompetence</a></li><li class="chapter-item expanded "><a href="part1/The Cycle of Emasculation.html"><strong aria-hidden="true">5.4.</strong> The Cycle Of Emasculation</a></li><li class="chapter-item expanded "><a href="part1/Lack of Men's Resources.html"><strong aria-hidden="true">5.5.</strong> Lack Of Men's Resources</a></li><li class="chapter-item expanded "><a href="part1/The Failure of Men's Rights Leadership.html"><strong aria-hidden="true">5.6.</strong> The Failure Of Men's Rights Leadership</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Feminism Ruins Social Interaction</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/How Feminism Ruins Relationships.html"><strong aria-hidden="true">6.1.</strong> How Feminism Ruins Relationships</a></li><li class="chapter-item expanded "><a href="part1/The Feminist State Replacing The Function of Men.html"><strong aria-hidden="true">6.2.</strong> The Feminist State Replacing The Function of Men</a></li><li class="chapter-item expanded "><a href="part1/Where Dating Experts Go Wrong.html"><strong aria-hidden="true">6.3.</strong> Where Dating "Experts" Go Wrong</a></li><li class="chapter-item expanded "><a href="part1/The “Game” of Social Interaction.html"><strong aria-hidden="true">6.4.</strong> The “Game” Of Social Interaction</a></li><li class="chapter-item expanded "><a href="part1/The Nice Guy.html"><strong aria-hidden="true">6.5.</strong> The Nice Guy</a></li><li class="chapter-item expanded "><a href="part1/The Player.html"><strong aria-hidden="true">6.6.</strong> The Player</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Why Feminism Persists</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/Society Not Allowing The Examination of Feminism.html"><strong aria-hidden="true">7.1.</strong> Society Not Allowing The Examination Of Feminism</a></li><li class="chapter-item expanded "><a href="part1/Faulty Logic Due to Social Conditioning.html"><strong aria-hidden="true">7.2.</strong> Faulty Logic Due to Social Conditioning</a></li><li class="chapter-item expanded "><a href="part1/Recognizing The Problem And Changing Our Approach.html"><strong aria-hidden="true">7.3.</strong> Recognizing The Problem And Changing Our Approach</a></li><li class="chapter-item expanded "><a href="part1/Why Your Social Interactions Fail.html"><strong aria-hidden="true">7.4.</strong> Why Your Social Interactions Fail</a></li><li class="chapter-item expanded "><a href="part1/Where To Start.html"><strong aria-hidden="true">7.5.</strong> Where To Start</a></li><li class="chapter-item expanded "><a href="part1/Social Interaction Is Universal.html"><strong aria-hidden="true">7.6.</strong> Social Interaction Is Universal</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part II: Understanding The Solution</li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> How To Approach Social Interaction</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="The Need For Public Scrutiny.html"><strong aria-hidden="true">8.1.</strong> The Need For Public Scrutiny</a></li><li class="chapter-item expanded "><a href="Satisfaction.html"><strong aria-hidden="true">8.2.</strong> Satisfaction</a></li><li class="chapter-item expanded "><a href="The Cause of Attraction.html"><strong aria-hidden="true">8.3.</strong> The Cause Of Attraction</a></li><li class="chapter-item expanded "><a href="Functional Knowledge.html"><strong aria-hidden="true">8.4.</strong> Functional Knowledge</a></li><li class="chapter-item expanded "><a href="Attraction Is Based Upon Necessity.html"><strong aria-hidden="true">8.5.</strong> Attraction Is Based Upon Necessity</a></li><li class="chapter-item expanded "><a href="Too Short, Too Ugly, Too [Insert Inadequacy].html"><strong aria-hidden="true">8.6.</strong> Too Short, Too Ugly, Too [Insert Inadequacy]</a></li><li class="chapter-item expanded "><a href="The Need For Principles.html"><strong aria-hidden="true">8.7.</strong> The Need For Principles</a></li><li class="chapter-item expanded "><a href="Order Vs. Disorder.html"><strong aria-hidden="true">8.8.</strong> Order vs. Disorder</a></li><li class="chapter-item expanded "><a href="Balance-The Perfect Arrangement.html"><strong aria-hidden="true">8.9.</strong> Balance-The Perfect Arrangement</a></li><li class="chapter-item expanded "><a href="Dispositional Order.html"><strong aria-hidden="true">8.10.</strong> Dispositional Order</a></li><li class="chapter-item expanded "><a href="Positional Order.html"><strong aria-hidden="true">8.11.</strong> Positional Order</a></li><li class="chapter-item expanded "><a href="Bringing Order To Your Social Interactions.html"><strong aria-hidden="true">8.12.</strong> Bringing Order To Your Social Interactions</a></li><li class="chapter-item expanded "><a href="Exposing Disorder.html"><strong aria-hidden="true">8.13.</strong> Exposing Disorder</a></li><li class="chapter-item expanded "><a href="Addressing Disorder In Others.html"><strong aria-hidden="true">8.14.</strong> Addressing Disorder In Others</a></li><li class="chapter-item expanded "><a href="Becoming Accountable For Others.html"><strong aria-hidden="true">8.15.</strong> Becoming Accountable For Others</a></li><li class="chapter-item expanded "><a href="Limitation prevents disorder.html"><strong aria-hidden="true">8.16.</strong> Limitation Prevents Disorder</a></li><li class="chapter-item expanded "><a href="Schedule Your Time.html"><strong aria-hidden="true">8.17.</strong> Schedule Your Time</a></li><li class="chapter-item expanded "><a href="Success And Failure.html"><strong aria-hidden="true">8.18.</strong> Success And Failure</a></li><li class="chapter-item expanded "><a href="Limitation creates Proper Form.html"><strong aria-hidden="true">8.19.</strong> Limitation Creates Proper Form</a></li><li class="chapter-item expanded "><a href="Training Produces Consistency.html"><strong aria-hidden="true">8.20.</strong> Training Produces Consistency</a></li><li class="chapter-item expanded "><a href="Freedom and limitation.html"><strong aria-hidden="true">8.21.</strong> Freedom And Limitation</a></li><li class="chapter-item expanded "><a href="Inward Limitation Vs. Outward Limitation.html"><strong aria-hidden="true">8.22.</strong> Inward Limitation vs. Outward Limitation</a></li><li class="chapter-item expanded "><a href="Direction.html"><strong aria-hidden="true">8.23.</strong> Direction</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Authority-The Proper Male Form</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Purpose of Authority.html"><strong aria-hidden="true">9.1.</strong> Purpose Of Authority</a></li><li class="chapter-item expanded "><a href="Society Opposes Male Authority.html"><strong aria-hidden="true">9.2.</strong> Society Opposes Male Authority</a></li><li class="chapter-item expanded "><a href="Authority Maintained By Pain & Pleasure.html"><strong aria-hidden="true">9.3.</strong> Authority Maintained By Pain & Pleasure</a></li><li class="chapter-item expanded "><a href="Pleasure Establishes Authority.html"><strong aria-hidden="true">9.4.</strong> Pleasure Establishes Authority</a></li><li class="chapter-item expanded "><a href="Pain Maintains Authority.html"><strong aria-hidden="true">9.5.</strong> Pain Maintains Authority</a></li><li class="chapter-item expanded "><a href="Fear.html"><strong aria-hidden="true">9.6.</strong> Fear</a></li><li class="chapter-item expanded "><a href="Authority Requires Submission.html"><strong aria-hidden="true">9.7.</strong> Authority Requires Submission</a></li><li class="chapter-item expanded "><a href="Why Authority Belongs To Men.html"><strong aria-hidden="true">9.8.</strong> Why Authority Belongs To Men</a></li><li class="chapter-item expanded "><a href="Being Responsible To Those Under Your Authority.html"><strong aria-hidden="true">9.9.</strong> Being Responsible To Those Under Your Authority</a></li><li class="chapter-item expanded "><a href="Personal Authority.html"><strong aria-hidden="true">9.10.</strong> Personal And Social Authority</a></li><li class="chapter-item expanded "><a href="Exercising Functional Authority.html"><strong aria-hidden="true">9.11.</strong> Exercising Functional Authority</a></li><li class="chapter-item expanded "><a href="Saying NO.html"><strong aria-hidden="true">9.12.</strong> Saying "NO"</a></li><li class="chapter-item expanded "><a href="Leading.html"><strong aria-hidden="true">9.13.</strong> Leading</a></li><li class="chapter-item expanded "><a href="Honoring Vs. Obeying.html"><strong aria-hidden="true">9.14.</strong> Honoring vs. Obeying</a></li><li class="chapter-item expanded "><a href="Giver.html"><strong aria-hidden="true">9.15.</strong> Giver</a></li><li class="chapter-item expanded "><a href="Why Women Play Games.html"><strong aria-hidden="true">9.16.</strong> Why Women Play Games</a></li><li class="chapter-item expanded "><a href="Initiating.html"><strong aria-hidden="true">9.17.</strong> Initiating</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Function</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Bringing Others Toward An Orderly State.html"><strong aria-hidden="true">10.1.</strong> Bringing Others Toward An Orderly State</a></li><li class="chapter-item expanded "><a href="The Relationship Between Function And Value.html"><strong aria-hidden="true">10.2.</strong> The Relationship Between Function And Value</a></li><li class="chapter-item expanded "><a href="Restoring a Proper View of Function.html"><strong aria-hidden="true">10.3.</strong> Restoring A Proper View of Function</a></li><li class="chapter-item expanded "><a href="Functional Desires Vs. Dysfunctional Desires.html"><strong aria-hidden="true">10.4.</strong> Functional Desires vs. Dysfunctional Desires</a></li><li class="chapter-item expanded "><a href="Functional Socialization.html" class="active"><strong aria-hidden="true">10.5.</strong> Functional Socialization</a></li><li class="chapter-item expanded "><a href="The Standard For Social Competence.html"><strong aria-hidden="true">10.6.</strong> The Standard For Social Competence</a></li><li class="chapter-item expanded "><a href="The Test for Dysfunction.html"><strong aria-hidden="true">10.7.</strong> The Test For Dysfunction</a></li><li class="chapter-item expanded "><a href="Social Interaction Does Not Happen In A Vacuum.html"><strong aria-hidden="true">10.8.</strong> Social Interaction Does Not Happen In A Vacuum</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part III: Applying The Solution</li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> Creating And Maintaining Order</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Stop Rewarding Bad behavior.html"><strong aria-hidden="true">11.1.</strong> Stop Rewarding Bad behavior</a></li><li class="chapter-item expanded "><a href="Types of Expectations.html"><strong aria-hidden="true">11.2.</strong> Types Of Expectations</a></li><li class="chapter-item expanded "><a href="How To Get Your Expectations Met.html"><strong aria-hidden="true">11.3.</strong> How To Get Your Expectations Met</a></li><li class="chapter-item expanded "><a href="What Are My Expectations.html"><strong aria-hidden="true">11.4.</strong> What Are My Expectations?</a></li><li class="chapter-item expanded "><a href="Your Expectations Should Mirror Your Needs.html"><strong aria-hidden="true">11.5.</strong> Your Expectations Should Mirror Your Needs</a></li><li class="chapter-item expanded "><a href="Deprivation Vs. Satisfaction.html"><strong aria-hidden="true">11.6.</strong> Deprivation vs. Satisfaction</a></li><li class="chapter-item expanded "><a href="Dysfunctional Expectations.html"><strong aria-hidden="true">11.7.</strong> Dysfunctional Expectations</a></li><li class="chapter-item expanded "><a href="Functional Expectations.html"><strong aria-hidden="true">11.8.</strong> Functional Expectations</a></li><li class="chapter-item expanded "><a href="Have I Stated My Expectations.html"><strong aria-hidden="true">11.9.</strong> Have I Stated My Expectations?</a></li><li class="chapter-item expanded "><a href="Have I Enforced My Expectations.html"><strong aria-hidden="true">11.10.</strong> Have I Enforced My Expectations?</a></li></ol></li><li class="chapter-item expanded "><a href="Rewarding & Punishing.html"><strong aria-hidden="true">12.</strong> Rewarding & Punishing</a></li><li class="chapter-item expanded "><a href="How To Punish.html"><strong aria-hidden="true">13.</strong> How To Punish</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Attitude Directs Behavior.html"><strong aria-hidden="true">13.1.</strong> Attitude Directs Behavior</a></li><li class="chapter-item expanded "><a href="Dealing With Mischaracterizations.html"><strong aria-hidden="true">13.2.</strong> Dealing With Mischaracterizations</a></li><li class="chapter-item expanded "><a href="Punishing Vs. Justifying.html"><strong aria-hidden="true">13.3.</strong> Punishing vs. Justifying</a></li><li class="chapter-item expanded "><a href="Apply Pain, not frustration.html"><strong aria-hidden="true">13.4.</strong> Apply Pain, Not Frustration</a></li><li class="chapter-item expanded "><a href="How Much Pain To Apply.html"><strong aria-hidden="true">13.5.</strong> How Much Pain To Apply</a></li></ol></li><li class="chapter-item expanded "><a href="Refusing To Punish.html"><strong aria-hidden="true">14.</strong> Refusing To Punish</a></li><li class="chapter-item expanded "><a href="Torture.html"><strong aria-hidden="true">15.</strong> Torture</a></li><li class="chapter-item expanded "><a href="Effective Punishment.html"><strong aria-hidden="true">16.</strong> Effective Punishment</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">17.</strong> The Effects Of Punishment</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Will She Still Love Me.html"><strong aria-hidden="true">17.1.</strong> Will She Still Love Me?</a></li><li class="chapter-item expanded "><a href="From Rebellion To Submission.html"><strong aria-hidden="true">17.2.</strong> From Rebellion To Submission</a></li><li class="chapter-item expanded "><a href="The Pain Fallacy.html"><strong aria-hidden="true">17.3.</strong> The Pain Fallacy</a></li><li class="chapter-item expanded "><a href="Discipline causes Maturity.html"><strong aria-hidden="true">17.4.</strong> Discipline Causes Maturity</a></li></ol></li><li class="chapter-item expanded "><a href="How to Reward.html"><strong aria-hidden="true">18.</strong> How to Reward</a></li><li class="chapter-item expanded "><a href="Types of Rewards.html"><strong aria-hidden="true">19.</strong> Types of Rewards</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">20.</strong> Examples of Managing Expectations</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Student Training.html"><strong aria-hidden="true">20.1.</strong> Student Training</a></li><li class="chapter-item expanded "><a href="Justifying Instead of Punishing.html"><strong aria-hidden="true">20.2.</strong> Justifying Instead Of Punishing</a></li><li class="chapter-item expanded "><a href="A Valuable Realization.html"><strong aria-hidden="true">20.3.</strong> A Valuable Realization</a></li><li class="chapter-item expanded "><a href="Enforcing An Expectation.html"><strong aria-hidden="true">20.4.</strong> Enforcing An Expectation</a></li><li class="chapter-item expanded "><a href="Asking A Girl Out For Coffee.html"><strong aria-hidden="true">20.5.</strong> Asking A Girl Out For Coffee</a></li><li class="chapter-item expanded "><a href="How To Handle Bitch Behavior.html"><strong aria-hidden="true">20.6.</strong> How To Handle Bitch Behavior</a></li><li class="chapter-item expanded "><a href="Extreme Confrontation.html"><strong aria-hidden="true">20.7.</strong> Extreme Confrontation</a></li><li class="chapter-item expanded "><a href="Leading In A Barber Shop.html"><strong aria-hidden="true">20.8.</strong> Leading In A Barber Shop</a></li><li class="chapter-item expanded "><a href="Enforcing Sexual Expectations.html"><strong aria-hidden="true">20.9.</strong> Enforcing Sexual Expectations</a></li><li class="chapter-item expanded "><a href="Checklist.html"><strong aria-hidden="true">20.10.</strong> Checklist</a></li><li class="chapter-item expanded "><a href="Looking For Competence Vs. Creating Competence.html"><strong aria-hidden="true">20.11.</strong> Looking For Competence vs. Creating Competence</a></li><li class="chapter-item expanded "><a href="Creating A Pretense.html"><strong aria-hidden="true">20.12.</strong> Creating A Pretense</a></li><li class="chapter-item expanded "><a href="Achieving Social Competence.html"><strong aria-hidden="true">20.13.</strong> Achieving Social Competence</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">21.</strong> Training Your Expression</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Monsters Under The Bed.html"><strong aria-hidden="true">21.1.</strong> Monsters Under The Bed</a></li><li class="chapter-item expanded "><a href="Needing A Helping Hand.html"><strong aria-hidden="true">21.2.</strong> Needing A Helping Hand</a></li><li class="chapter-item expanded "><a href="Nourished By Love.html"><strong aria-hidden="true">21.3.</strong> Nourished By Love</a></li><li class="chapter-item expanded "><a href="Removing Disorder From Your Expression.html"><strong aria-hidden="true">21.4.</strong> Removing Disorder From Your Expression</a></li><li class="chapter-item expanded "><a href="Components of An Orderly Expression.html"><strong aria-hidden="true">21.5.</strong> Components of An Orderly Expression</a></li><li class="chapter-item expanded "><a href="Three Key Elements.html"><strong aria-hidden="true">21.6.</strong> Three Key Elements</a></li><li class="chapter-item expanded "><a href="Candor.html"><strong aria-hidden="true">21.7.</strong> Candor</a></li><li class="chapter-item expanded "><a href="Negative Candor.html"><strong aria-hidden="true">21.8.</strong> Negative Candor</a></li><li class="chapter-item expanded "><a href="Positive Candor.html"><strong aria-hidden="true">21.9.</strong> Positive Candor</a></li><li class="chapter-item expanded "><a href="Degree.html"><strong aria-hidden="true">21.10.</strong> Degree</a></li><li class="chapter-item expanded "><a href="Content.html"><strong aria-hidden="true">21.11.</strong> Content</a></li><li class="chapter-item expanded "><a href="Written Expression.html"><strong aria-hidden="true">21.12.</strong> Written Expression</a></li><li class="chapter-item expanded "><a href="Oral Expression.html"><strong aria-hidden="true">21.13.</strong> Oral Expression</a></li><li class="chapter-item expanded "><a href="Body Language.html"><strong aria-hidden="true">21.14.</strong> Body Language</a></li><li class="chapter-item expanded "><a href="Physical Appearance.html"><strong aria-hidden="true">21.15.</strong> Physical Appearance</a></li><li class="chapter-item expanded "><a href="Men Are Necessary.html"><strong aria-hidden="true">21.16.</strong> Men Are Necessary</a></li><li class="chapter-item expanded "><a href="Relationship Balance.html"><strong aria-hidden="true">21.17.</strong> Relationship Balance</a></li></ol></li><li class="chapter-item expanded "><a href="The Litmus Test of Social Competence.html">The Litmus Test of Social Competence</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Principles That Govern Social Interaction</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="functional-socialization"><a class="header" href="#functional-socialization">Functional Socialization</a></h2>
+<p>Society contributes to your disorderly condition by maintaining dysfunctional standards for basic socialization; if you can make small talk with another person, others will presume that you possess basic social skills. But this low standard
+completely neglects the function of socialization—to convey your very <em>person</em> to another person through the vehicle of experiences.</p>
+<p>When you convey static information, your relationship stagnates because nothing living
+is imparted to the other person. However, when you convey your
+dynamic <em>person</em>, both parties enjoy a mutually satisfying experience that causes the relationship to grow. Information does not cause growth. Only <em>life</em> can cause growth.</p>
+<p>All living things must grow to survive, including relationships. If either party remains unsatisfied or fails to move toward order, this is an indication that growth has ceased. Life is no longer being administered. Information has replaced the person. The relationship has become dysfunctional.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Functional Desires Vs. Dysfunctional Desires.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="The Standard For Social Competence.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Functional Desires Vs. Dysfunctional Desires.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="The Standard For Social Competence.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

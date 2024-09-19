@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Authority Requires Submission - The Principles That Govern Social Interaction</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="Clearing out the bullshit.html">Clearing Out The Bullshit</a></li><li class="chapter-item expanded affix "><li class="part-title">Part I: Identifying The Problem</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> The Neurotic Mind</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/Some Symptoms.html"><strong aria-hidden="true">1.1.</strong> Some Symptoms</a></li><li class="chapter-item expanded "><a href="part1/How To Spot A Serial Killer.html"><strong aria-hidden="true">1.2.</strong> How To Spot A Serial Killer</a></li><li class="chapter-item expanded "><a href="part1/Why are you like this.html"><strong aria-hidden="true">1.3.</strong> Why Are You Like This?</a></li></ol></li><li class="chapter-item expanded "><a href="part1/What is Feminism.html"><strong aria-hidden="true">2.</strong> What Is Feminism?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/What Does The Term Bitch Really Mean.html"><strong aria-hidden="true">2.1.</strong> What Does The Term "Bitch" Really Mean?</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Feminism Deforms Society</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/An Attitude of Entitlement.html"><strong aria-hidden="true">3.1.</strong> An Attitude Of Entitlement</a></li><li class="chapter-item expanded "><a href="part1/Women Shielded From Sexual Accountability.html"><strong aria-hidden="true">3.2.</strong> Women Shielded From Sexual Accountability</a></li><li class="chapter-item expanded "><a href="part1/An Unfair Sexual Advantage.html"><strong aria-hidden="true">3.3.</strong> An Unfair Sexual Advantage</a></li><li class="chapter-item expanded "><a href="part1/An Unfair Economic Advantage.html"><strong aria-hidden="true">3.4.</strong> An Unfair Economic Advantage</a></li><li class="chapter-item expanded "><a href="part1/Equal Rights Vs. Equal Representation of Interests.html"><strong aria-hidden="true">3.5.</strong> "Equal Rights" vs. Equal Representation of Interests</a></li><li class="chapter-item expanded "><a href="part1/How Feminism Destroys Chivalry.html"><strong aria-hidden="true">3.6.</strong> How Feminism Destroys Chivalry</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Feminism Damages Women</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/The Victim Mentality.html"><strong aria-hidden="true">4.1.</strong> The Victim Mentality</a></li><li class="chapter-item expanded "><a href="part1/Women Encouraged To Deceive.html"><strong aria-hidden="true">4.2.</strong> Women Encouraged To Deceive</a></li><li class="chapter-item expanded "><a href="part1/Females Encouraged to Neglect Their Gender Roles.html"><strong aria-hidden="true">4.3.</strong> Females Encouraged To Neglect Their Gender Roles</a></li><li class="chapter-item expanded "><a href="part1/Over-emphasizing Male Functions.html"><strong aria-hidden="true">4.4.</strong> Over-emphasizing Male Functions</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Feminism Emasculates Men</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/The Demonization of Men.html"><strong aria-hidden="true">5.1.</strong> The Demonization Of Men</a></li><li class="chapter-item expanded "><a href="part1/Demonizing Male Sexuality.html"><strong aria-hidden="true">5.2.</strong> Demonizing Male Sexuality</a></li><li class="chapter-item expanded "><a href="part1/Dating Incompetence.html"><strong aria-hidden="true">5.3.</strong> Dating Incompetence</a></li><li class="chapter-item expanded "><a href="part1/The Cycle of Emasculation.html"><strong aria-hidden="true">5.4.</strong> The Cycle Of Emasculation</a></li><li class="chapter-item expanded "><a href="part1/Lack of Men's Resources.html"><strong aria-hidden="true">5.5.</strong> Lack Of Men's Resources</a></li><li class="chapter-item expanded "><a href="part1/The Failure of Men's Rights Leadership.html"><strong aria-hidden="true">5.6.</strong> The Failure Of Men's Rights Leadership</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Feminism Ruins Social Interaction</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/How Feminism Ruins Relationships.html"><strong aria-hidden="true">6.1.</strong> How Feminism Ruins Relationships</a></li><li class="chapter-item expanded "><a href="part1/The Feminist State Replacing The Function of Men.html"><strong aria-hidden="true">6.2.</strong> The Feminist State Replacing The Function of Men</a></li><li class="chapter-item expanded "><a href="part1/Where Dating Experts Go Wrong.html"><strong aria-hidden="true">6.3.</strong> Where Dating "Experts" Go Wrong</a></li><li class="chapter-item expanded "><a href="part1/The “Game” of Social Interaction.html"><strong aria-hidden="true">6.4.</strong> The “Game” Of Social Interaction</a></li><li class="chapter-item expanded "><a href="part1/The Nice Guy.html"><strong aria-hidden="true">6.5.</strong> The Nice Guy</a></li><li class="chapter-item expanded "><a href="part1/The Player.html"><strong aria-hidden="true">6.6.</strong> The Player</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Why Feminism Persists</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="part1/Society Not Allowing The Examination of Feminism.html"><strong aria-hidden="true">7.1.</strong> Society Not Allowing The Examination Of Feminism</a></li><li class="chapter-item expanded "><a href="part1/Faulty Logic Due to Social Conditioning.html"><strong aria-hidden="true">7.2.</strong> Faulty Logic Due to Social Conditioning</a></li><li class="chapter-item expanded "><a href="part1/Recognizing The Problem And Changing Our Approach.html"><strong aria-hidden="true">7.3.</strong> Recognizing The Problem And Changing Our Approach</a></li><li class="chapter-item expanded "><a href="part1/Why Your Social Interactions Fail.html"><strong aria-hidden="true">7.4.</strong> Why Your Social Interactions Fail</a></li><li class="chapter-item expanded "><a href="part1/Where To Start.html"><strong aria-hidden="true">7.5.</strong> Where To Start</a></li><li class="chapter-item expanded "><a href="part1/Social Interaction Is Universal.html"><strong aria-hidden="true">7.6.</strong> Social Interaction Is Universal</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part II: Understanding The Solution</li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> How To Approach Social Interaction</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="The Need For Public Scrutiny.html"><strong aria-hidden="true">8.1.</strong> The Need For Public Scrutiny</a></li><li class="chapter-item expanded "><a href="Satisfaction.html"><strong aria-hidden="true">8.2.</strong> Satisfaction</a></li><li class="chapter-item expanded "><a href="The Cause of Attraction.html"><strong aria-hidden="true">8.3.</strong> The Cause Of Attraction</a></li><li class="chapter-item expanded "><a href="Functional Knowledge.html"><strong aria-hidden="true">8.4.</strong> Functional Knowledge</a></li><li class="chapter-item expanded "><a href="Attraction Is Based Upon Necessity.html"><strong aria-hidden="true">8.5.</strong> Attraction Is Based Upon Necessity</a></li><li class="chapter-item expanded "><a href="Too Short, Too Ugly, Too [Insert Inadequacy].html"><strong aria-hidden="true">8.6.</strong> Too Short, Too Ugly, Too [Insert Inadequacy]</a></li><li class="chapter-item expanded "><a href="The Need For Principles.html"><strong aria-hidden="true">8.7.</strong> The Need For Principles</a></li><li class="chapter-item expanded "><a href="Order Vs. Disorder.html"><strong aria-hidden="true">8.8.</strong> Order vs. Disorder</a></li><li class="chapter-item expanded "><a href="Balance-The Perfect Arrangement.html"><strong aria-hidden="true">8.9.</strong> Balance-The Perfect Arrangement</a></li><li class="chapter-item expanded "><a href="Dispositional Order.html"><strong aria-hidden="true">8.10.</strong> Dispositional Order</a></li><li class="chapter-item expanded "><a href="Positional Order.html"><strong aria-hidden="true">8.11.</strong> Positional Order</a></li><li class="chapter-item expanded "><a href="Bringing Order To Your Social Interactions.html"><strong aria-hidden="true">8.12.</strong> Bringing Order To Your Social Interactions</a></li><li class="chapter-item expanded "><a href="Exposing Disorder.html"><strong aria-hidden="true">8.13.</strong> Exposing Disorder</a></li><li class="chapter-item expanded "><a href="Addressing Disorder In Others.html"><strong aria-hidden="true">8.14.</strong> Addressing Disorder In Others</a></li><li class="chapter-item expanded "><a href="Becoming Accountable For Others.html"><strong aria-hidden="true">8.15.</strong> Becoming Accountable For Others</a></li><li class="chapter-item expanded "><a href="Limitation prevents disorder.html"><strong aria-hidden="true">8.16.</strong> Limitation Prevents Disorder</a></li><li class="chapter-item expanded "><a href="Schedule Your Time.html"><strong aria-hidden="true">8.17.</strong> Schedule Your Time</a></li><li class="chapter-item expanded "><a href="Success And Failure.html"><strong aria-hidden="true">8.18.</strong> Success And Failure</a></li><li class="chapter-item expanded "><a href="Limitation creates Proper Form.html"><strong aria-hidden="true">8.19.</strong> Limitation Creates Proper Form</a></li><li class="chapter-item expanded "><a href="Training Produces Consistency.html"><strong aria-hidden="true">8.20.</strong> Training Produces Consistency</a></li><li class="chapter-item expanded "><a href="Freedom and limitation.html"><strong aria-hidden="true">8.21.</strong> Freedom And Limitation</a></li><li class="chapter-item expanded "><a href="Inward Limitation Vs. Outward Limitation.html"><strong aria-hidden="true">8.22.</strong> Inward Limitation vs. Outward Limitation</a></li><li class="chapter-item expanded "><a href="Direction.html"><strong aria-hidden="true">8.23.</strong> Direction</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Authority-The Proper Male Form</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Purpose of Authority.html"><strong aria-hidden="true">9.1.</strong> Purpose Of Authority</a></li><li class="chapter-item expanded "><a href="Society Opposes Male Authority.html"><strong aria-hidden="true">9.2.</strong> Society Opposes Male Authority</a></li><li class="chapter-item expanded "><a href="Authority Maintained By Pain & Pleasure.html"><strong aria-hidden="true">9.3.</strong> Authority Maintained By Pain & Pleasure</a></li><li class="chapter-item expanded "><a href="Pleasure Establishes Authority.html"><strong aria-hidden="true">9.4.</strong> Pleasure Establishes Authority</a></li><li class="chapter-item expanded "><a href="Pain Maintains Authority.html"><strong aria-hidden="true">9.5.</strong> Pain Maintains Authority</a></li><li class="chapter-item expanded "><a href="Fear.html"><strong aria-hidden="true">9.6.</strong> Fear</a></li><li class="chapter-item expanded "><a href="Authority Requires Submission.html" class="active"><strong aria-hidden="true">9.7.</strong> Authority Requires Submission</a></li><li class="chapter-item expanded "><a href="Why Authority Belongs To Men.html"><strong aria-hidden="true">9.8.</strong> Why Authority Belongs To Men</a></li><li class="chapter-item expanded "><a href="Being Responsible To Those Under Your Authority.html"><strong aria-hidden="true">9.9.</strong> Being Responsible To Those Under Your Authority</a></li><li class="chapter-item expanded "><a href="Personal Authority.html"><strong aria-hidden="true">9.10.</strong> Personal And Social Authority</a></li><li class="chapter-item expanded "><a href="Exercising Functional Authority.html"><strong aria-hidden="true">9.11.</strong> Exercising Functional Authority</a></li><li class="chapter-item expanded "><a href="Saying NO.html"><strong aria-hidden="true">9.12.</strong> Saying "NO"</a></li><li class="chapter-item expanded "><a href="Leading.html"><strong aria-hidden="true">9.13.</strong> Leading</a></li><li class="chapter-item expanded "><a href="Honoring Vs. Obeying.html"><strong aria-hidden="true">9.14.</strong> Honoring vs. Obeying</a></li><li class="chapter-item expanded "><a href="Giver.html"><strong aria-hidden="true">9.15.</strong> Giver</a></li><li class="chapter-item expanded "><a href="Why Women Play Games.html"><strong aria-hidden="true">9.16.</strong> Why Women Play Games</a></li><li class="chapter-item expanded "><a href="Initiating.html"><strong aria-hidden="true">9.17.</strong> Initiating</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Function</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Bringing Others Toward An Orderly State.html"><strong aria-hidden="true">10.1.</strong> Bringing Others Toward An Orderly State</a></li><li class="chapter-item expanded "><a href="The Relationship Between Function And Value.html"><strong aria-hidden="true">10.2.</strong> The Relationship Between Function And Value</a></li><li class="chapter-item expanded "><a href="Restoring a Proper View of Function.html"><strong aria-hidden="true">10.3.</strong> Restoring A Proper View of Function</a></li><li class="chapter-item expanded "><a href="Functional Desires Vs. Dysfunctional Desires.html"><strong aria-hidden="true">10.4.</strong> Functional Desires vs. Dysfunctional Desires</a></li><li class="chapter-item expanded "><a href="Functional Socialization.html"><strong aria-hidden="true">10.5.</strong> Functional Socialization</a></li><li class="chapter-item expanded "><a href="The Standard For Social Competence.html"><strong aria-hidden="true">10.6.</strong> The Standard For Social Competence</a></li><li class="chapter-item expanded "><a href="The Test for Dysfunction.html"><strong aria-hidden="true">10.7.</strong> The Test For Dysfunction</a></li><li class="chapter-item expanded "><a href="Social Interaction Does Not Happen In A Vacuum.html"><strong aria-hidden="true">10.8.</strong> Social Interaction Does Not Happen In A Vacuum</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Part III: Applying The Solution</li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> Creating And Maintaining Order</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Stop Rewarding Bad behavior.html"><strong aria-hidden="true">11.1.</strong> Stop Rewarding Bad behavior</a></li><li class="chapter-item expanded "><a href="Types of Expectations.html"><strong aria-hidden="true">11.2.</strong> Types Of Expectations</a></li><li class="chapter-item expanded "><a href="How To Get Your Expectations Met.html"><strong aria-hidden="true">11.3.</strong> How To Get Your Expectations Met</a></li><li class="chapter-item expanded "><a href="What Are My Expectations.html"><strong aria-hidden="true">11.4.</strong> What Are My Expectations?</a></li><li class="chapter-item expanded "><a href="Your Expectations Should Mirror Your Needs.html"><strong aria-hidden="true">11.5.</strong> Your Expectations Should Mirror Your Needs</a></li><li class="chapter-item expanded "><a href="Deprivation Vs. Satisfaction.html"><strong aria-hidden="true">11.6.</strong> Deprivation vs. Satisfaction</a></li><li class="chapter-item expanded "><a href="Dysfunctional Expectations.html"><strong aria-hidden="true">11.7.</strong> Dysfunctional Expectations</a></li><li class="chapter-item expanded "><a href="Functional Expectations.html"><strong aria-hidden="true">11.8.</strong> Functional Expectations</a></li><li class="chapter-item expanded "><a href="Have I Stated My Expectations.html"><strong aria-hidden="true">11.9.</strong> Have I Stated My Expectations?</a></li><li class="chapter-item expanded "><a href="Have I Enforced My Expectations.html"><strong aria-hidden="true">11.10.</strong> Have I Enforced My Expectations?</a></li></ol></li><li class="chapter-item expanded "><a href="Rewarding & Punishing.html"><strong aria-hidden="true">12.</strong> Rewarding & Punishing</a></li><li class="chapter-item expanded "><a href="How To Punish.html"><strong aria-hidden="true">13.</strong> How To Punish</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Attitude Directs Behavior.html"><strong aria-hidden="true">13.1.</strong> Attitude Directs Behavior</a></li><li class="chapter-item expanded "><a href="Dealing With Mischaracterizations.html"><strong aria-hidden="true">13.2.</strong> Dealing With Mischaracterizations</a></li><li class="chapter-item expanded "><a href="Punishing Vs. Justifying.html"><strong aria-hidden="true">13.3.</strong> Punishing vs. Justifying</a></li><li class="chapter-item expanded "><a href="Apply Pain, not frustration.html"><strong aria-hidden="true">13.4.</strong> Apply Pain, Not Frustration</a></li><li class="chapter-item expanded "><a href="How Much Pain To Apply.html"><strong aria-hidden="true">13.5.</strong> How Much Pain To Apply</a></li></ol></li><li class="chapter-item expanded "><a href="Refusing To Punish.html"><strong aria-hidden="true">14.</strong> Refusing To Punish</a></li><li class="chapter-item expanded "><a href="Torture.html"><strong aria-hidden="true">15.</strong> Torture</a></li><li class="chapter-item expanded "><a href="Effective Punishment.html"><strong aria-hidden="true">16.</strong> Effective Punishment</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">17.</strong> The Effects Of Punishment</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Will She Still Love Me.html"><strong aria-hidden="true">17.1.</strong> Will She Still Love Me?</a></li><li class="chapter-item expanded "><a href="From Rebellion To Submission.html"><strong aria-hidden="true">17.2.</strong> From Rebellion To Submission</a></li><li class="chapter-item expanded "><a href="The Pain Fallacy.html"><strong aria-hidden="true">17.3.</strong> The Pain Fallacy</a></li><li class="chapter-item expanded "><a href="Discipline causes Maturity.html"><strong aria-hidden="true">17.4.</strong> Discipline Causes Maturity</a></li></ol></li><li class="chapter-item expanded "><a href="How to Reward.html"><strong aria-hidden="true">18.</strong> How to Reward</a></li><li class="chapter-item expanded "><a href="Types of Rewards.html"><strong aria-hidden="true">19.</strong> Types of Rewards</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">20.</strong> Examples of Managing Expectations</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Student Training.html"><strong aria-hidden="true">20.1.</strong> Student Training</a></li><li class="chapter-item expanded "><a href="Justifying Instead of Punishing.html"><strong aria-hidden="true">20.2.</strong> Justifying Instead Of Punishing</a></li><li class="chapter-item expanded "><a href="A Valuable Realization.html"><strong aria-hidden="true">20.3.</strong> A Valuable Realization</a></li><li class="chapter-item expanded "><a href="Enforcing An Expectation.html"><strong aria-hidden="true">20.4.</strong> Enforcing An Expectation</a></li><li class="chapter-item expanded "><a href="Asking A Girl Out For Coffee.html"><strong aria-hidden="true">20.5.</strong> Asking A Girl Out For Coffee</a></li><li class="chapter-item expanded "><a href="How To Handle Bitch Behavior.html"><strong aria-hidden="true">20.6.</strong> How To Handle Bitch Behavior</a></li><li class="chapter-item expanded "><a href="Extreme Confrontation.html"><strong aria-hidden="true">20.7.</strong> Extreme Confrontation</a></li><li class="chapter-item expanded "><a href="Leading In A Barber Shop.html"><strong aria-hidden="true">20.8.</strong> Leading In A Barber Shop</a></li><li class="chapter-item expanded "><a href="Enforcing Sexual Expectations.html"><strong aria-hidden="true">20.9.</strong> Enforcing Sexual Expectations</a></li><li class="chapter-item expanded "><a href="Checklist.html"><strong aria-hidden="true">20.10.</strong> Checklist</a></li><li class="chapter-item expanded "><a href="Looking For Competence Vs. Creating Competence.html"><strong aria-hidden="true">20.11.</strong> Looking For Competence vs. Creating Competence</a></li><li class="chapter-item expanded "><a href="Creating A Pretense.html"><strong aria-hidden="true">20.12.</strong> Creating A Pretense</a></li><li class="chapter-item expanded "><a href="Achieving Social Competence.html"><strong aria-hidden="true">20.13.</strong> Achieving Social Competence</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">21.</strong> Training Your Expression</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Monsters Under The Bed.html"><strong aria-hidden="true">21.1.</strong> Monsters Under The Bed</a></li><li class="chapter-item expanded "><a href="Needing A Helping Hand.html"><strong aria-hidden="true">21.2.</strong> Needing A Helping Hand</a></li><li class="chapter-item expanded "><a href="Nourished By Love.html"><strong aria-hidden="true">21.3.</strong> Nourished By Love</a></li><li class="chapter-item expanded "><a href="Removing Disorder From Your Expression.html"><strong aria-hidden="true">21.4.</strong> Removing Disorder From Your Expression</a></li><li class="chapter-item expanded "><a href="Components of An Orderly Expression.html"><strong aria-hidden="true">21.5.</strong> Components of An Orderly Expression</a></li><li class="chapter-item expanded "><a href="Three Key Elements.html"><strong aria-hidden="true">21.6.</strong> Three Key Elements</a></li><li class="chapter-item expanded "><a href="Candor.html"><strong aria-hidden="true">21.7.</strong> Candor</a></li><li class="chapter-item expanded "><a href="Negative Candor.html"><strong aria-hidden="true">21.8.</strong> Negative Candor</a></li><li class="chapter-item expanded "><a href="Positive Candor.html"><strong aria-hidden="true">21.9.</strong> Positive Candor</a></li><li class="chapter-item expanded "><a href="Degree.html"><strong aria-hidden="true">21.10.</strong> Degree</a></li><li class="chapter-item expanded "><a href="Content.html"><strong aria-hidden="true">21.11.</strong> Content</a></li><li class="chapter-item expanded "><a href="Written Expression.html"><strong aria-hidden="true">21.12.</strong> Written Expression</a></li><li class="chapter-item expanded "><a href="Oral Expression.html"><strong aria-hidden="true">21.13.</strong> Oral Expression</a></li><li class="chapter-item expanded "><a href="Body Language.html"><strong aria-hidden="true">21.14.</strong> Body Language</a></li><li class="chapter-item expanded "><a href="Physical Appearance.html"><strong aria-hidden="true">21.15.</strong> Physical Appearance</a></li><li class="chapter-item expanded "><a href="Men Are Necessary.html"><strong aria-hidden="true">21.16.</strong> Men Are Necessary</a></li><li class="chapter-item expanded "><a href="Relationship Balance.html"><strong aria-hidden="true">21.17.</strong> Relationship Balance</a></li></ol></li><li class="chapter-item expanded "><a href="The Litmus Test of Social Competence.html">The Litmus Test of Social Competence</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Principles That Govern Social Interaction</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="authority-requires-submission"><a class="header" href="#authority-requires-submission">Authority Requires Submission</a></h2>
+<p>To bring a person under your authority, you first need to subdue their will. This means they must be conquered by both positive and negative incentives.
+Neither pain nor pleasure can be missing. You must have <em>both</em>. In fact, many authority problems stem from neglecting to supply
+incentives from one side.</p>
+<p>Today, the United States government has conquered you with both positive and negative incentives. Because your will has been subdued, you seek to obey the laws of the land.</p>
+<p>On the positive side, by obeying the laws, you gain the benefits of U.S.
+citizenship. You are protected by the police. You have rights granted to you by the Constitution. You can receive welfare benefits and other government assistance if necessary. You get to live in a clean environment, etc. These positive incentives encourage you to submit to the governing authority of the United States.</p>
+<p>On the negative side, if you disobey the laws, the police will charge you with a crime. They can arrest you. They can imprison you. You can be fined. You can lose your property.
+You can lose your rights. The government can even go so far as to execute you if you disobey certain laws. These negative incentives
+serve to ensure your submission to the governing authority over you. [Gaining submission in social interactions will be covered in section III]</p>
+<p>Your authority places you in the position of a sheriff. Once a person submits to your authority in a relationship, you are in charge. The responsibility for their welfare now rests on your shoulders. It is now your job to keep them safe and happy.</p>
+<p>In return, you should require their full submission. They need to obey your laws (expectations) because they are now under your jurisdiction, receiving the benefits of your care. When you create order with your authority, they benefit from it. When you spend money to buy things, they become the recipients. When you share your knowledge, they get
+educated. When you kiss them, they get affection. When you protect them, they get security. When you pay rent, they get shelter. When you correct them, they get discipline. When you feed them, they get nourishment, etc. Your authority allows them to benefit from all that you have to offer.</p>
+<p>Those who benefit from the order you create need to be brought into submission to your authority. Once a person agrees to submit to your authority, their submission must be maintained by the application of merited pain and pleasure. Practically speaking, this means you need to <em>discipline</em> bad behavior and <em>reward</em> good behavior.</p>
+<p>While the term “authority” still remains acceptable in modern vernacular, its necessary polarity, “submission,” has lost its proper context. Feminists have demonized the concept of submission by associating it with a condemned patriarchal system.</p>
+<p>While Webster's dictionary defines <em>submission</em> as: “<em>yielding oneself to the authority or will of another</em>,” many people, especially women, erroneously believe that submission results in a complete loss of identity, personality and choice.</p>
+<p>Feminism misleads society into believing that submitting to the will of another automatically results in abuse. Submission is made synonymous with slavery,
+and in its most vilified context, female
+submission to male authority is depicted as
+the pinnacle of misogyny; feminists deem cooking and cleaning evil relics of a contemptible patriarchal system. They mock housewives as inferior women while painting their husbands as unsophisticated, cruel misogynists.</p>
+<p>Yet we don’t characterize our relationship with our father as one of slavery. We don’t characterize student-teacher relationships as slavery. We don’t characterize employer-employee relationships as
+slavery. We don’t characterize military relationships as slavery. Yet for all of these relationships to function, authority over another person is required.</p>
+<p>Intellectually dishonest characterizations of submission and authority undermine objective, rational examination and serve to shut down discussion. Yet, we can easily expose the incompetent
+nature of these criticisms by referencing an authority- submission relationship common to everyone’s experience:</p>
+<p>From small tribes in Africa to large metropolitan cities across
+the United States, people voluntarily submit to some type of governing authority that meets their needs. Nations create agreements (laws) with its citizens, designed to safeguard everyone’s interests. These laws must then
+be enforced to protect those interests and thus maintain an orderly society. If these legal agreements
+are broken, all lives are put in jeopardy.</p>
+<p>For example,
+when you exceed the speed limit, you are essentially breaking the legal agreements governing public roads. In doing so, you endanger the lives of those whom the State is legally obligated to protect.</p>
+<p>If you steal from a bank, you break the laws designed to protect the
+economic interests of its investors. Everyone’s ability to purchase life- sustaining resources is put in jeopardy.</p>
+<p>To fulfill its responsibility to its citizens, the State must use its authority to execute a punishment (e.g., fine, jail) against those who breach its legal agreements. Violators must be punished to remove the disorderly condition created by their actions. Enforcing painful consequences brings society back into a state of order.</p>
+<p>Whenever people enter into a reciprocal relationship, each side must sacrifice its freedom; those who wield authority must bear the responsibility for everyone’s happiness, even to the point
+of sacrificing their own lives. In return, those receiving care are obligated to <em><strong>submit</strong></em> to the
+governing authority providing it.</p>
+<p><em>Authority</em> is required to enforce your expectations. Your expectations are designed to care for those submitting to your authority.
+<em>Submission</em> is the proper attitude/behavior/condition necessary for authority to function. Anything less than submission will result in disorder.</p>
+<p>Just as obeying the laws of the State does not suppress your identity or turn you into a slave, submitting to male authority does not
+result in oppressive relationships. Both authority and submission are essential to meeting everyone’s
+need for order. If either component is missing, both sides will remain unsatisfied.</p>
+<p>A wife submitting to her husband’s governing authority doesn’t lose her identity or ability to choose. On the contrary, her submission actually safeguards her freedom. It places her in a proper position to receive her husband’s care and protection. The only “freedom” she loses is the dysfunctional ability to act without restriction. This is no different than immigrants losing the ‘freedom’ to exceed the speed limit, yell fire in a crowded theater, steal from others or
+engage in any other unrestricted behaviors once they become lawful
+citizens of a nation.</p>
+<p>In exchange for her freedom, she gains the right to physical protection, financial support, romance, a strong pair of arms for moving furniture
+and changing tires, peace of mind and a satisfying relationship.
+Whereas absolute freedom led her to a Wild West lifestyle of confusion and misery, a well-directed life will answer her need for order. Freedom
+is meaningless if you must constantly worry about being shot, stabbed,
+killed, raped or exploited by an unrestricted society predicated on self- indulgent freedom.</p>
+<p>Thus, those who demonize authority and submission are really expressing their childish desire for immediate gratification. They fail to realize that their delusional utopia of absolute freedom will only lead to a complete disregard for human life. Without reciprocation and mutual dependence to guide your actions, human life becomes expendable.
+Self-interest always undermines the incentive to care for everyone’s mutual welfare.</p>
+<p>Absolute, unrestricted freedom is very dangerous to any society, just as absolute, unrestricted freedom is dangerous to any relationship.
+Today, for the first time in history, there are more single people than married people. The high rate of divorce is indicative of society’s contempt for authority and submission. Because of feminism’s emphasis on self-esteem, women are encouraged to “break the law” of reciprocation by refusing to
+submit to male authority. Without a functional authority-submission relationship, there is no way to protect the interests of either gender or preserve a peaceful order. Romance will naturally move towards entropy (fights, break-ups and divorce) when its ordering agents (authority &amp; submission) are removed.</p>
+<p>Even feminists themselves are
+hard-pressed to ignore their own natural gender design. As much as
+fabulousness.html
+feminists love to claim that gender is a mere social construct, their own experience betrays their fraudulent philosophy. As <em>The Frisky</em>’s most staunch feminist, Jessica Wakeman, reveals:</p>
+<blockquote>
+<p>“[Women] want to be dominated: Even big-mouthed ballsy women like me enjoy being dominated! Yet dominating a woman scares a lot of men because they are afraid — rightfully so — of being rape-y. But with tons of trust and communication, she’ll be creaming her panties in no time!”</p>
+</blockquote>
+<p>Wakeman initially admits her own ignorance of gender function:</p>
+<blockquote>
+<p>“I look back now and see that [the men I dated] realized I loved [submitting] <em>long</em> before I did.”</p>
+</blockquote>
+<p>But <em>through actual experience</em> she later gains a valuable realization:</p>
+<p>“...it was [his authority]... He had [an authoritative] personality. He could be fearless and decisive. He could be a leader. He could be stern and take charge when he needed to. He was protective... [He] dominated me in bed all the time, of course. But outside of bed, which was starting to feel like catnip in this new, weird way, I always felt ‘safe’ with him because of the way he took charge.”</p>
+<p>Yes, even hardcore feminists— who routinely condemn authoritative men as “controlling” and “abusive”— admit that submitting to a man feels <em>right</em>. And as Wakeman confesses, it even feels <em><strong>pleasurable</strong></em>:</p>
+<blockquote>
+<p>“I’ve been pretty open about my own enjoyment with [submitting to a man] and, I promise you, <em>lots</em> of women really like it.”</p>
+<p>“... the idea of [submitting to a man] aroused me more than I had ever felt before. [...] I was horny <em>constantly</em>. And I mean <em>constantly</em>. Never before in my life have I experienced such weeks-long
+periods of horniness! [...] [he] was not abusive. I was <em>not</em> being hurt, nor was I unhappy. We were in a dominant/submissive relationship — or playing at one, anyway — and [submitting to his authority] got me unbelievably, <em>unbelievably</em> turned on.”</p>
+</blockquote>
+<p>In fact, the significance of female submission is even backed by scientific studies such as the one conducted in 1973 by researcher and therapist E. Barbara Hariton. During interviews with women, Hariton discovered that the most common fantasy involved being “<em>forcefully taken</em>” by a man.</p>
+<p>Such scientific observations and many others like it reveal the functional desire expressed by women to submit to male authority.</p>
+<p>Author, Susannah Breslin, further confirms this innate desire by giving dating tips to men that emphasize the importance of male authority in relationships:</p>
+<blockquote>
+<p>“<strong>Take Charge</strong>. We do not want to decide where to go. We will never tell you this, but it is true.</p>
+<p>“... We are interested in how you <em>portray yourself</em>. Act confident, interested,
+engaged, self-assured, ambitious, and happy. We like that.</p>
+<p>“... Feminism, shmeminism. [Remember when we said we were ‘strong and independent’ and didn’t need a man to take care of us?] We lied...”</p>
+</blockquote>
+<p>She also provides the reason why women require male authority:</p>
+<blockquote>
+<p>“Frankly, as women, we’re not even sure what we want half the time, but you knew that already.”</p>
+</blockquote>
+<p>Even the scientific community confirms
+this fundamental truth about female
+design as <em>Psychology Today</em>’s News Editor, Matthew Hutson, points out:</p>
+<blockquote>
+<p>“A recent analysis of 20 studies over the last 30 years indicates that between 31% and 57% of women have [domination] fantasies, and these fantasies are frequent or preferred in 9% to 17% of women. Considering that [women are ashamed to report such] fantasies, these stats are most likely lowball figures."</p>
+</blockquote>
+<p>And the porn industry, which uniquely capitalizes on the social incompetence of men, sheds further light on the subject by revealing a telling fact: dominatrices can make a good living while female submissives are <em>rarely</em> in demand. Why? Because
+in a market based upon the inability to attract women, male authority is largely absent from its customer base; dominant, authoritative men can <em>already</em> attract women. Thus, they have little incentive to patronize sex workers.</p>
+<p>Yet even with vast amounts of evidence to the contrary, feminism still conditions women to believe that competing for male authority leads to greater happiness. This is evident in Wakeman’s own struggle with functional gender roles:</p>
+<blockquote>
+<p>“...even though I liked the feeling of [submitting to a man], I felt conflicted about giving up my physical power, thinking [this] wasn’t something an independent and
+opinionated woman should enjoy. Just how, I fretted, could a partner take me seriously as a thinker, a doer, and a creator when I wanted to be submissive to him? What if people think I’m
+weird or screwed up?”</p>
+</blockquote>
+<p>While it’s true that women today experience much more social freedom to speak and do as they please, they also experience much more misery.
+Record numbers of women now take prescription medications to numb their chronic dissatisfaction. Feminism’s dysfunctional relationship model
+competes with a female’s natural submissive design, causing endless frustration. Whenever necessity competes with good intentions, the
+end result is always suffering.</p>
+<p>Yet, without men exercising authority over women, and without women submitting to that authority, relationships eventually break down. The mere “fantasy” of submitting to an authoritative man can never replace the reality of an emasculating culture that fails to meet the needs of women. By robbing men of their authority, feminism simultaneously deprives women of healthy male leadership. When relationships lack a stable leader, neither gender is satisfied.</p>
+<p>Freedom that sacrifices necessity is meaningless; being shackled to
+feminism’s fraudulent ideology mocks the very purpose of freedom; the ability to do anything becomes contemptible if it fails to meet your needs.</p>
+<p>Society must recognize the value of teaching females to submit to male authority, and it must teach males how to exercise their
+authority to meet everyone’s needs. Only then can men and women truly benefit from the healthy exercise of authority and submission within a relationship. When boundaries are responsibly placed to curb disorder, everyone enjoys the liberating peace of orderly relationships.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Fear.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Why Authority Belongs To Men.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Fear.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Why Authority Belongs To Men.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
